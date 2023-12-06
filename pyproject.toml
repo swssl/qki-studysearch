@@ -22,7 +22,13 @@ python-dotenv = "1.0.0"
 sentence-transformers = "2.2.2"
 uvicorn = "^0.22.0"
 torch = ">=2.0.0, !=2.0.1"
+rich = "^13.7.0"
+pandas = "^2.1.3"
 
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.9"
+jupyterlab-rise = "^0.41.0"
 
 [build-system]
 requires = ["poetry-core"]
